@@ -198,19 +198,21 @@ app.get('/excluircliente',async(req,res)=>{
     });
 });
 
-app.delete('/apagarcliente/:id',(req,res)=>{
+app.delete('/apagarcliente/:nome', (req,res)=>{
     cliente.destroy({
-        where:{id:req.params.id}
+        where: {nome: req.params.nome}
     }).then(function(){
-        error:false;
-        message:"Cliente foi excluído com sucesso."
-    });
-}).catch(function(erro){
+        return res.json({
+            error:false,
+            message: "Cliente foi excluído com sucesso."
+        });
+    }).catch(function(erro){
         return res.status(400).json({
             error: true,
             message: "Não foi possível excluir o cliente."
         });
     });
+});
 
 //INDICADOR DE SERVIDOR ATIVO
 let port=process.env.PORT || 3000;
