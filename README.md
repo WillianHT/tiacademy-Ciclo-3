@@ -1,3 +1,5 @@
+(Atualização) Descobri que o problema está em minha branch master, por isso o Ciclo 4 vai estar na branch main, e lá será atualizado durante a semana.
+
 A princípio eu estava usando um outro repositório com mesmo nome "tiacademy", e eu estava conseguindo fazer o upload dos arquivos do ciclo 1 e 2 nele normalmente.
 Quando o ciclo 3 começou, simplesmente não consegui mais fazer upload no repositório. 
 A única solução que encontrei foi criar um outro repositório com o mesmo nome e renomeei o antigo para tiacademy-ORIGINAL.
