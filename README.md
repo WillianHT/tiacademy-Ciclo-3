@@ -1,4 +1,4 @@
-(Atualização) Descobri que o problema está em minha branch master, por isso o Ciclo 4 vai estar na branch main, e lá será atualizado durante a semana.
+(Atualização) Descobri que o problema está em minha branche master, por isso o Ciclo 4 vai estar na branch main, e lá será atualizado durante esta última semana do curso.
 
 A princípio eu estava usando um outro repositório com mesmo nome "tiacademy", e eu estava conseguindo fazer o upload dos arquivos do ciclo 1 e 2 nele normalmente.
 Quando o ciclo 3 começou, simplesmente não consegui mais fazer upload no repositório. 
